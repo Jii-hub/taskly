@@ -9,14 +9,14 @@ import { Toaster } from 'react-hot-toast'
 
 export default function App() {
   return (
-  <ChakraProvider value={system}>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/signin' element={<SignIn />} />
-        <Route path='/signup' element={<SignUp />} />
-      </Routes>
-    </BrowserRouter>
-  </ChakraProvider>
-  );
+    <ChakraProvider value={system}>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/signin' element={<SignIn />} />
+          <Route path='/signup' element={<SignUp />} />
+        </Routes>
+      </BrowserRouter>
+    </ChakraProvider>
+  );
 }
